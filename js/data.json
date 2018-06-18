@@ -13,5 +13,20 @@
     "name": "Anna Jackson",
     "birthday": "1993-10-15",
 	"photo": "img/anna-jackson.jpg"
+  },
+  {
+    "name": "Michael Peterson",
+    "birthday": "1984-02-06",
+	"photo": "img/michael-peterson.jpg"
+  },
+  {
+    "name": "Jenny Mills",
+    "birthday": "1989-09-12",
+	"photo": "img/jenny-mills.jpg"
+  },
+  {
+    "name": "Jessica Lambert",
+    "birthday": "1990-03-10",
+	"photo": "img/jessica-lambert.jpg"
   }
 ]
