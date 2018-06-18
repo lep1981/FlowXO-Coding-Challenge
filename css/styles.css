@@ -89,3 +89,74 @@ div.tools {
     border: 1px solid #ddd;
     font-size: 1.2em;
 }
+.addBdays {
+    width: 100%;
+    padding: 10px 0 15px;
+    box-sizing: border-box;
+}
+.addBdays button {
+    margin: 0 auto;
+    display: block;
+    background: #6F5FE8;
+    border: 1px solid #eee;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    border-radius: 10px;
+	cursor:pointer;
+}
+
+
+div#bdays-form-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    top: 0;
+	display:none;
+}
+form#bdays-form {
+    background: #eee;
+    width: 20%;
+    max-width: 450px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bdays-form h4 {
+    margin: 0;
+    font-size: 1.5em;
+}
+input#fullname,input#dob {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+div#close-form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 1px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+}
