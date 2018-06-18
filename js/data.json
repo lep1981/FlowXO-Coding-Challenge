@@ -1,14 +1,17 @@
 [
   {
     "name": "John Doe",
-    "birthday": "1981-08-02"
+    "birthday": "1981-08-02",
+	"photo": "https://placehold.it/250x250"
   },
   {
     "name": "Katie Smith",
-    "birthday": "1973-05-20"
+    "birthday": "1973-05-20",
+	"photo": "https://placehold.it/250x250"
   },
   {
     "name": "Anna Jackson",
-    "birthday": "1993-10-15"
+    "birthday": "1993-10-15",
+	"photo": "https://placehold.it/250x250"
   }
 ]

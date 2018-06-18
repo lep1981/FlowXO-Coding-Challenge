@@ -1,3 +1,91 @@
 @charset "utf-8";
 /* CSS Document */
 
+html,body {font-family: 'Encode Sans Semi Expanded', sans-serif;}
+
+body {
+	background:url("../img/bdays-bg.jpg") top center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#main-container {
+    max-width: 980px;
+    margin: 15px auto;
+}
+
+h2.title {
+    margin: 0;
+    padding: 20px;
+    background: #CDF4D7;
+    color: #222;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.bdays-list {
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+li.bday {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    background: rgba(255,255,255,0.3);
+    box-sizing: border-box;
+    margin: 0 0 8px 0;
+	border-radius:10px;
+	border: 1px solid #fff;
+}
+
+li.bday:after {
+	content:" ";
+	display:block;
+	width:100%;
+	clear:both;
+}
+
+img.bday-photo {
+    float: left;
+    width: 15%;
+    height: auto;
+    margin: 0 50px 0 0;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 50%;
+}
+
+h3.bday-name {
+    font-size: 2em;
+    color: #333;
+    margin: 20px 0 0 0;
+}
+
+.bday-fulldob {
+    margin: 5px 0;
+    color: #6F5FE8;
+    font-weight: bold;
+}
+
+p.bday-info {
+    font-size: 1.4em;
+	margin: 0;
+}
+div.tools {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    background: #6F5FE8;
+    box-sizing: border-box;
+}
+#searchbox {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 1.2em;
+}
