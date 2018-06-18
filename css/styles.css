@@ -121,7 +121,7 @@ div#bdays-form-wrapper {
 }
 form#bdays-form {
     background: #eee;
-    width: 20%;
+    width: 80%;
     max-width: 450px;
     padding: 20px;
     text-align: center;
@@ -159,4 +159,11 @@ div#close-form {
     background: #222;
     color: #fff;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 580px) {
+	.bday-fulldob {font-size:0.7em;}
+	p.bday-info {font-size: 0.8em;}
+	h3.bday-name {font-size:1em;margin-top:0;}
+	img.bday-photo {margin-right:10px;}	
 }
